@@ -1,0 +1,3 @@
+﻿  Kaynak.cpp
+C:\Users\pc\Desktop\verivize\veri_yapıları_son\Kaynak.cpp(9,15): warning C4244: 'bağımsız değişken': 'time_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
+LINK : fatal error LNK1168: C:\Users\pc\Desktop\verivize\veri_yapıları_son\x64\Debug\veri_yapıları_son.exe yazma için açılamıyor
