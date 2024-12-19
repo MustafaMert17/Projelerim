@@ -1,0 +1,11 @@
+C:\Users\Asus\source\repos\GörselProje\GörselProje\bin\Debug\GörselProje.exe.config
+C:\Users\Asus\source\repos\GörselProje\GörselProje\bin\Debug\GörselProje.exe
+C:\Users\Asus\source\repos\GörselProje\GörselProje\bin\Debug\GörselProje.pdb
+C:\Users\Asus\source\repos\GörselProje\GörselProje\obj\Debug\GörselProje.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\GörselProje\GörselProje\obj\Debug\GörselProje.Form1.resources
+C:\Users\Asus\source\repos\GörselProje\GörselProje\obj\Debug\GörselProje.Properties.Resources.resources
+C:\Users\Asus\source\repos\GörselProje\GörselProje\obj\Debug\GörselProje.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\GörselProje\GörselProje\obj\Debug\GörselProje.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\GörselProje\GörselProje\obj\Debug\GörselProje.exe
+C:\Users\Asus\source\repos\GörselProje\GörselProje\obj\Debug\GörselProje.pdb
+C:\Users\Asus\source\repos\GörselProje\GörselProje\obj\Debug\GörselProje.Form2.resources
