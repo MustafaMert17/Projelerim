@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        @import url(proje.css);
+    </style>
+    <title>Yemek Günlüğü - Giriş</title>
+</head>
+<body>
+
+    <header>
+        <h1>Yemek Günlüğü</h1>
+    </header>
+
+    <nav id="basbaslık">
+        <ul>
+            <li><a href="file:///C:/Users/Asus/Desktop/%C4%B0%C5%9Fletme%20Defteri/Sel%C3%A7ukProje/index.html"target="_blank">Ana Sayfa</a></li>
+            <li><a href="file:///C:/Users/Asus/Desktop/%C4%B0%C5%9Fletme%20Defteri/Sel%C3%A7ukProje/ensevilen.html"target="_blank">En sevilen tarifler</a></li>
+            <li><a href="file:///C:/Users/Asus/Desktop/%C4%B0%C5%9Fletme%20Defteri/Sel%C3%A7ukProje/soslar.html"target="_blank">Soslar</a></li>
+            <li><a href="file:///C:/Users/Asus/Desktop/%C4%B0%C5%9Fletme%20Defteri/Sel%C3%A7ukProje/tarifekle.html" target="_blank">Tarif Ekle</a></li>
+            <li><a href="file:///C:/Users/Asus/Desktop/%C4%B0%C5%9Fletme%20Defteri/Sel%C3%A7ukProje/ileti%C5%9Fim.html"target="_blank">İletişim</a></li>
+            <li><input type="text" class="ara" placeholder="Ara..."></li>
+            <li><input type="submit" value="Ara" class="arabuton" /></li>
+        </ul>
+    </nav>
+    <center>
+    <div class="container">
+        <div class="form-container">
+            <h2>Giriş Yap</h2>
+            <form id="girisForm">
+                <div class="input-group">
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" name="mail" required>
+                </div>
+                <div class="input-group">
+                    <label for="sifre">Şifre</label>
+                    <input type="password" id="sifre" name="sifre" required>
+                </div>
+                <div class="submit-group">
+                    <input type="button" value="Giriş Yap" onclick="girisYap()">
+                </div>
+                <div class="signup-link">
+                    <p>Hesabınız yok mu? <a href="kayit.html">Kayıt Ol</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    </center>
+    <script>
+        // Giriş işlemi
+        function girisYap() {
+            const mail = document.getElementById('mail').value;
+            const sifre = document.getElementById('sifre').value;
+
+            if (!mail || !sifre) {
+                alert("Lütfen tüm alanları doldurun!");
+                return;
+            }
+
+            const kullanici = JSON.parse(localStorage.getItem("kullanici"));
+
+            if (kullanici && kullanici.mail === mail && kullanici.sifre === sifre) {
+                alert("Giriş başarılı!");
+
+                 window.location.href = "index.html";
+            } else {
+                alert("E-mail veya şifre hatalı!");
+            }
+        }
+    </script>
+    
+
+    <footer>
+        <p>Telif Hakkı &copy; 2024</p>
+    </footer>
+    
+</body>
+</html>

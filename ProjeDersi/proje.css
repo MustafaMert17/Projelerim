@@ -1,0 +1,361 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #ef9b0f;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    margin: 20px;
+}
+
+article {
+    flex: 3;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #e2e2e2;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.ara {
+    border-radius: 15px;
+    border: none;
+    height: 25px;
+    padding: 5px;
+    width: 200px;
+}
+
+.arabuton {
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    width: 80px;
+    background-color: #34495e;
+    color: white;
+    cursor: pointer;
+}
+
+.arabuton:hover {
+    background-color: #f39c12;
+    transition: background-color 0.3s;
+}
+
+.tablo{
+    border:0.1rem solid black;
+}
+
+.tablo img{
+    margin-top: 0.5cm;
+    margin-left: 0.2cm;
+    margin-right: 0px;
+    height: 340px;
+    width: 400px;
+}
+
+.tablo {
+    text-align:left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:17px;
+}
+
+.tablo input{
+    margin-left:400px;
+}
+
+#yazilar{
+    margin-left:150px;
+}
+
+#baslik{
+    text-align: center;
+}
+
+input[type="button"].gönderbuton {
+    
+background-color: #34495e;
+    color: white;
+    
+  
+border: none;
+    
+border-radius: 20px;
+    padding: 10px 20px;
+    
+
+cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="button"].gönderbuton:hover {
+
+  
+background-color: #f39c12;
+    transition: background-color 0.3s;
+}
+
+
+.tekle textarea{
+    resize: none;
+}
+
+#basbaslık {
+    background-color: #ecf0f1;
+    padding: 20px;
+}
+
+#basbaslık ul {
+    list-style: none;
+    text-align: center;
+}
+
+#basbaslık ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#basbaslık ul li a {
+    color: #34495e;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#basbaslık ul li a:hover {
+    color: #f39c12;
+}
+
+.ekle{
+    width:110px;
+    height: 40px;
+    border-radius:20px ;
+    background-color: #34495e;
+    color:white;
+}
+
+.ekle:hover{
+    background-color: #f39c12;
+    transition: 1.0s;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #34495e;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #34495e;
+    outline: none;
+}
+
+.gender-group label {
+    font-size: 1.1rem;
+    color: #34495e;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.radio-group label {
+    margin-right: 10px;
+}
+
+.radio-group input {
+    margin-right: 20px;
+}
+
+.submit-group {
+    text-align: center;
+}
+
+.submit-group input {
+    width: 100%;
+    padding: 14px;
+    background-color: #34495e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-group input:hover {
+    background-color: #f39c12;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.devam {
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #34495e; 
+    color: white; 
+    border: none; 
+    font-size: 10px;
+    text-align: center; 
+    display: inline-block; 
+    cursor: pointer; 
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+
+.devam:hover {
+    background-color: #f39c12; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    color: white; 
+    transform: scale(1.05); 
+}
+
+.giris, .kayit {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #34495e; 
+    color: white; 
+    border: none; 
+    font-size: 14px; 
+    text-align: center; 
+    display: inline-block; 
+    cursor: pointer; 
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    margin-right: 15px; 
+}
+
+.giris:hover, .kayit:hover {
+    background-color: #f39c12;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    color: white; 
+    transform: scale(1.05); 
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+
+
+.contact-info a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    
+    color: #34495e;
+}
+
+textarea.complaint-textarea {
+    
+    width: 100%;
+border-radius: 5px;
+    
+    
+padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    
+ 
+resize: none;
+}
+
+
+
+textarea.complaint-textarea:focus {
+    
+ 
+border-color: #34495e;
+}
+
+
